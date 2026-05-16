@@ -42,6 +42,21 @@
       ]
     },
     {
+      "name": "development-tools",
+      "description": "Collection of essential development tools including git workflow automation, code formatting, API client generation, test generation, documentation, database migrations, and environment setup",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/git-workflow-assistant",
+        "./skills/code-formatter-linter",
+        "./skills/api-client-generator",
+        "./skills/test-generator",
+        "./skills/documentation-generator",
+        "./skills/database-migration-builder",
+        "./skills/environment-setup-wizard"
+      ]
+    },
+    {
       "name": "claude-api",
       "description": "Claude API and SDK documentation skill for building LLM-powered applications",
       "source": "./",
