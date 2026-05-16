@@ -5,8 +5,8 @@
     "email": "ricky@example.com"
   },
   "metadata": {
-    "description": "Ricky's collection of custom skills for development and design",
-    "version": "1.0.0"
+    "description": "Comprehensive Claude Code skills marketplace with professional development tools, design utilities, code quality, and AI automation",
+    "version": "2.0.0"
   },
   "plugins": [
     {
@@ -63,6 +63,63 @@
       "strict": false,
       "skills": [
         "./skills/claude-api"
+      ]
+    },
+    {
+      "name": "architecture-and-design",
+      "description": "System architecture diagram generation and design tools for visualizing complex systems",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/architecture-diagram-generator"
+      ]
+    },
+    {
+      "name": "code-quality",
+      "description": "Comprehensive code review and quality assurance skills for modern development",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/code-review-skill"
+      ]
+    },
+    {
+      "name": "professional-development",
+      "description": "Enterprise-grade development skills for production workflows, full delivery lifecycle, and architecture optimization",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/claude-code-skills-daymade",
+        "./skills/claude-code-skills-levnikolaevich"
+      ]
+    },
+    {
+      "name": "automation-and-agents",
+      "description": "AI agents and automation tools for comprehensive workflow automation and context engineering",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/agentsys",
+        "./skills/context-engineering-kit"
+      ]
+    },
+    {
+      "name": "productivity-tools",
+      "description": "Enhanced development productivity tools and multi-language skill collections",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/buildwithclaude",
+        "./skills/superpowers-zh"
+      ]
+    },
+    {
+      "name": "plugin-marketplace",
+      "description": "Marketplace integration and plugin management tools with access to thousands of skills and agents",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/claude-plugins-plus-skills"
       ]
     }
   ]
